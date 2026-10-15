@@ -1,0 +1,12 @@
+import ProductList from './components/ProductList'
+
+function App() {
+  return (
+    <div className="container">
+      <h1 className="title">Məhsullar</h1>
+      <ProductList />
+    </div>
+  )
+}
+
+export default App
